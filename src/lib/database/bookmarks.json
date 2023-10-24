@@ -1,0 +1,37 @@
+[
+   {
+      "id": 0,
+      "shortname": "shortname",
+      "name": "Name",
+      "description": "Description...",
+      "link": "https://#/link"
+   },
+   {
+      "id": 1,
+      "shortname": "src1",
+      "name": "Source One",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus facilisis nisl vel consequat. Pellentesque augue nulla, dignissim vel lacinia et, auctor id arcu. Proin ut velit orci. Maecenas efficitur, nibh in feugiat tristique, eros sapien commodo odio, et sagittis sapien nisi vel orci. Duis congue lorem ut libero dapibus, vel maximus mauris congue. Proin consequat, ligula ut volutpat consequat, turpis tellus malesuada nibh, quis bibendum justo arcu sit amet eros. Praesent pulvinar congue sodales.",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+   },
+   {
+      "id": 2,
+      "shortname": "huzursuzbeyin",
+      "name": "Huzursuz Beyin",
+      "description": "\"Daha huzurlu ve akıllı bir yaşam sürebilmek için psikoloji ve felsefe ile ilgili okumalar yapıyor, notlar alıyor ve bunları başta Instagram üzere çeşitli platformlardan okuyucularımla paylaşıyorum.\"\n-Huzursuz Beyin",
+      "link": "https://www.huzursuzbeyin.com/"
+   },
+   {
+      "id": 3,
+      "shortname": "PhET Interactive Simulations",
+      "name": "PhET",
+      "description": "Founded in 2002 by Nobel Laureate Carl Wieman, the PhET Interactive Simulations project at the University of Colorado Boulder creates free interactive math and science simulations. PhET sims are based on extensive education research and engage students through an intuitive, game-like environment where students learn through exploration and discovery. Also, available at many languages.",
+      "link": "https://phet.colorado.edu/"
+   },
+   {
+      "id": 4,
+      "shortname": "refactoringguru",
+      "name": "Refactoring.Guru",
+      "description": "Refactoring.Guru makes it easy for you to discover everything you need to know about refactoring, design patterns, SOLID principles, and other smart programming topics.",
+      "link": "https://refactoring.guru/"
+   }
+]

@@ -1,0 +1,102 @@
+[
+   {
+      "id": 0,
+      "name": "HTML"
+   },
+   {
+      "id": 1,
+      "name": "CSS"
+   },
+   {
+      "id": 2,
+      "name": "JavaScript"
+   },
+   {
+      "id": 3,
+      "name": "React"
+   },
+   {
+      "id": 4,
+      "name": "Angular"
+   },
+   {
+      "id": 5,
+      "name": "Vue.js"
+   },
+   {
+      "id": 6,
+      "name": "Svelte"
+   },
+   {
+      "id": 7,
+      "name": "Node.js"
+   },
+   {
+      "id": 8,
+      "name": "Node"
+   },
+   {
+      "id": 9,
+      "name": "FontAwesome"
+   },
+   {
+      "id": 10,
+      "name": "FortAwesome"
+   },
+   {
+      "id": 11,
+      "name": "StackOverflow"
+   },
+   {
+      "id": 12,
+      "name": "PHP"
+   },
+   {
+      "id": 13,
+      "name": "Python"
+   },
+   {
+      "id": 14,
+      "name": "Swift"
+   },
+   {
+      "id": 15,
+      "name": "Java"
+   },
+   {
+      "id": 16,
+      "name": "Markdown"
+   },
+   {
+      "id": 17,
+      "name": "CodePen"
+   },
+   {
+      "id": 18,
+      "name": "Git"
+   },
+   {
+      "id": 20,
+      "name": "GitHub"
+   },
+   {
+      "id": 21,
+      "name": "Docker"
+   },
+   {
+      "id": 22,
+      "name": "Windows"
+   },
+   {
+      "id": 23,
+      "name": "Linux"
+   },
+   {
+      "id": 24,
+      "name": "Ubuntu"
+   },
+   {
+      "id": 25,
+      "name": "RaspberryPi"
+   }
+]

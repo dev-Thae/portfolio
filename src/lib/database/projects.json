@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "shortname": "portfolio",
+    "name": "Portfolio Site",
+    "short_description": "Minimalist Portfolio website...",
+    "description": "This minimalist portfolio website has been created with a clean and simple design approach. With a compact structure and minimal requirements, the site emphasizes the projects themselves as the main focal point. The uniqueness and aesthetics of each project are highlighted, merging with a clean interface to capture attention. This site offers an impressive experience in terms of content and visuals while being stripped of unnecessary details. My goal is to communicate effectively about my projects and provide you with a minimalist aesthetic. Enjoy browsing!",
+    "thumb": "p1_thumb.jpg",
+    "images": [
+      "p1_img1.jpg",
+      "p1_img2.jpg",
+      "p1_img3.jpg",
+      "home.png",
+      "contact.png",
+      "projects.png"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Svelte"
+    ]
+  },
+  {
+    "id": 2,
+    "shortname": "p2",
+    "name": "Proje 2",
+    "short_description": "lorem ipsum dolor sit amet",
+    "description": "Bu proje hakkında açıklama 2",
+    "thumb": "p2_thumb.jpg",
+    "images": [
+      "contact.png",
+      "home.png",
+      "projects.png"
+    ],
+    "technologies": [
+      "Node.js",
+      "Angular"
+    ]
+  },
+  {
+    "id": 3,
+    "shortname": "p3",
+    "name": "Proje 3",
+    "short_description": "",
+    "description": "Bu proje hakkında açıklama 3",
+    "thumb": "p3_thumb.jpg",
+    "images": [
+      "p1_img1.jpg",
+      "p1_img2.jpg",
+      "p1_img3.jpg"
+    ],
+    "technologies": [
+      "JavaScript",
+      "MongoDB"
+    ]
+  }
+]

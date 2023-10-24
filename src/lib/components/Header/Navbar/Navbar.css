@@ -1,0 +1,81 @@
+/*Navbar CSS*/
+nav {
+    background-color: var(--theme-background);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    gap: 1rem;
+    text-align: center;
+}
+
+nav ul li a {
+    color: var(--theme-text);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav ul li a.active {
+    color: var(--theme-text);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: var(--theme-accent);
+}
+
+/*RESPONSIVE*/
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--theme-text);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    ul {
+        flex-flow: column;
+        position: fixed;
+        top: 45px;
+        width: 100%;
+        background-color: var(--theme-primaryButton);
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        transition: 0.5s;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    nav ul li {
+        text-align: left;
+    }
+
+    ul.open {
+        max-height: 400px;
+    }
+}

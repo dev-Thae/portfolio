@@ -1,0 +1,54 @@
+#bookmarks {
+   min-height: 90vh;
+}
+
+.bookmark {
+   border: 5px solid var(--theme-primaryButton);
+   border-radius: 10px;
+
+   padding: 15px;
+   margin-bottom: 2vh;
+
+   font-weight: bold;
+
+   transition:  background-color .3s ease, margin .3s ease;
+}
+
+.bookmark:hover {
+   background-color: var(--theme-primaryButton);
+   margin: 4vh 0;
+}
+
+.bookmark > * {
+   transition: margin-bottom .5s ease;
+}
+
+.bookmark:hover > * {
+   margin-bottom: 20px;
+}
+
+.bookmark h2 {
+   margin: 0px;
+}
+
+.bookmark hr{
+   border-color:  var(--theme-text);
+}
+
+.bookmark hr:nth-of-type(2) {
+   width: 70%;
+   margin-left: 0px;
+}
+
+.bookmark a {
+   color: var(--theme-text);
+   transition: color .3s ease;
+}
+
+.bookmark a:hover {
+   color: var(--theme-accent);
+}
+
+.bookmark article{
+   white-space: pre-line;
+}

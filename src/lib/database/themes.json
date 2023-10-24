@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Light",
+    "text": "#333",
+    "background": "#f2f2f2",
+    "primaryButton": "#007bff",
+    "secondaryButton": "#6c757d",
+    "accent": "#ffc107"
+  },
+  {
+    "name": "Dark",
+    "text": "#fff",
+    "background": "#343a40",
+    "primaryButton": "#dc3545",
+    "secondaryButton": "#6c757d",
+    "accent": "#17a2b8"
+  },
+  {
+    "name": "NightStalker",
+    "text": "#e8f7f1",
+    "background": "#030806",
+    "primaryButton": "#215c63",
+    "secondaryButton": "#d4edfc",
+    "accent": "#213b63"
+  },
+  {
+    "name": "Med",
+    "text": "#201000",
+    "background": "#e8891d",
+    "primaryButton": "#bfd5c9",
+    "secondaryButton": "#05a3a4",
+    "accent": "#006373"
+  },
+  {
+    "name": "Med2",
+    "text": "#232d26",
+    "background": "#998177",
+    "primaryButton": "#ebab34",
+    "secondaryButton": "#05a3a4",
+    "accent": "#006373"
+  },
+  {
+    "name": "Dil",
+    "text": "#cfffff",
+    "background": "#412858",
+    "primaryButton": "#4740eb",
+    "secondaryButton": "#fff",
+    "accent": "#eff530"
+  },
+  {
+    "name": "Dil2",
+    "text": "#2d3838",
+    "background": "#985fcd",
+    "primaryButton": "#9a96e9",
+    "secondaryButton": "#fff",
+    "accent": "#64ff4b"
+  },
+  {
+    "name": "Second",
+    "text": "#1a1d0c",
+    "background": "#fdfefb",
+    "primaryButton": "#40491d",
+    "secondaryButton": "#f6f8ed",
+    "accent": "#505b24"
+  },
+  {
+    "name": "Hüs",
+    "text": "#0f0f0f",
+    "background": "#8CDDE6",
+    "primaryButton": "#E01200",
+    "secondaryButton": "#3FE02C",
+    "accent": "#F4D74E"
+  },
+  {
+    "name": "Ays",
+    "text": "#ffffff",
+    "background": "#e00",
+    "primaryButton": "#4f0229",
+    "secondaryButton": "#3FE02C",
+    "accent": "#502000"
+  },
+  {
+    "name": "Zey",
+    "text": "#fff",
+    "background": "#6e9cff",
+    "primaryButton": "#7b00b7",
+    "secondaryButton": "#e58101",
+    "accent": "#dd009f"
+  },
+  {
+    "name": "Eyl",
+    "text": "#fff",
+    "background": "#1f1a1a",
+    "primaryButton": "#c8a2c8",
+    "secondaryButton": "#f00",
+    "accent": "#00f"
+  },
+  {
+    "name": "First",
+    "text": "#fcf9f8",
+    "background": "#110908",
+    "primaryButton": "#9fcbd1",
+    "secondaryButton": "#221311",
+    "accent": "#9fcbd1"
+  },
+  {
+    "name": "Grass",
+    "text": "#ddf0db",
+    "background": "#0c190b",
+    "primaryButton": "#6bbc62",
+    "secondaryButton": "#050b05",
+    "accent": "#5ab450"
+  },
+  {
+    "name": "Earth",
+    "text": "#1d1b16",
+    "background": "#caaa4b",
+    "primaryButton": "#201a09",
+    "secondaryButton": "#c6b47b",
+    "accent": "#716541"
+  }
+]

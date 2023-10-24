@@ -1,0 +1,85 @@
+#projects {
+    padding: 40px 0;
+}
+
+#projects h1 {
+    text-align: center;
+}
+
+.projects {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.project {
+    flex-grow: 1;
+    width: 33.33%;
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+
+.zoom {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.zoom img {
+    display: block;
+    width: 100%;
+    min-height: 70%;
+    max-height: 100%;
+    height: auto;
+}
+
+.project div .item-text {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid var(--theme-primaryButton);
+}
+
+.project div:hover .zoom img {
+    transform: scale(1.25);
+    transition: all .5s ease;
+}
+
+.project div:not(:hover) .zoom img {
+    transform: scale(1);
+    transition: all .5s ease;
+}
+
+.project div:hover h3 {
+    color: var(--theme-text);
+    transition: all .5s ease;
+}
+
+.project div:hover .item-text {
+    background: var(--theme-primaryButton);
+    color: var(--theme-text);
+    transition: all .5s ease;
+}
+
+.project div a {
+    color: var(--theme-text);
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 2px dashed var(--theme-primaryButton);
+    border-bottom: 2px solid var(--theme-primaryButton);
+    transition: all .5s ease;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.project div:hover a {
+    color: var(--theme-text);
+    border: 2px solid var(--theme-text);
+    border-bottom: 5px solid var(--theme-text);
+    border-radius: 15px;
+}
+
+.item-text p {
+    margin: 20px 0;
+}

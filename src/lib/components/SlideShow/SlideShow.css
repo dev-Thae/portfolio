@@ -1,0 +1,46 @@
+#gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#gallery .auto {
+    border: 5px solid var(--theme-primaryButton);
+}
+
+#gallery img {
+    max-width: 99%;
+    max-height: 99%;
+    height: inherit;
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    transition: transform 0.3s ease-in-out, opacity 0.5s linear;
+    animation: moveRight 1s normal;
+}
+
+#gallery img:hover {
+    transform: scale(1.1);
+}
+
+#gallery #current {
+    opacity: 1;
+    z-index: 9999;
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(100px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,15 @@
+.progressBar {
+    width: 100%;
+    height: 5px;
+    background-color: var(--theme-background);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+ }
+ 
+ .progressBarFill {
+    height: 100%;
+    background-color: var(--theme-primaryButton);
+    transition: width 0.3s ease-in-out;
+ }

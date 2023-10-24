@@ -1,0 +1,47 @@
+/*Home CSS*/
+#home {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    z-index: 1;
+    text-align: left;
+    width: 30rem;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.content h2 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.content h2 span {
+    color: var(--theme-accent);
+}
+
+.content > span {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/*Components' CSS*/
+.content > .typewriter {
+    color: var(--theme-accent);
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 768px){
+    .content{
+        padding: 0px;
+    }
+    .content h2{
+        font-size: 3rem;
+    }
+}
