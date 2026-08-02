@@ -1,85 +1,80 @@
+/*Projects index*/
 #projects {
-    padding: 40px 0;
+	padding: 40px 0;
+	min-height: 75vh;
 }
 
 #projects h1 {
-    text-align: center;
+	text-align: center;
+	margin-bottom: 32px;
 }
 
 .projects {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
+	width: min(1100px, 100%);
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 24px;
 }
 
-.project {
-    flex-grow: 1;
-    width: 33.33%;
-    padding: 10px 10px;
-    justify-content: space-between;
+.project-card {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid var(--theme-secondaryButton);
+	border-radius: 10px;
+	overflow: hidden;
+	text-decoration: none;
+	color: var(--theme-text);
+	transition:
+		transform 0.2s ease,
+		border-color 0.2s ease,
+		box-shadow 0.2s ease;
 }
 
-.zoom {
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-    width: 100%;
-    vertical-align: top;
+.project-card:hover,
+.project-card:focus-visible {
+	transform: translateY(-4px);
+	border-color: var(--theme-accent);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
-.zoom img {
-    display: block;
-    width: 100%;
-    min-height: 70%;
-    max-height: 100%;
-    height: auto;
+.project-card img {
+	display: block;
+	width: 100%;
+	aspect-ratio: 16 / 10;
+	object-fit: cover;
 }
 
-.project div .item-text {
-    text-align: center;
-    padding: 5px;
-    border: 1px solid var(--theme-primaryButton);
+.project-body {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding: 14px 16px 16px;
+	flex-grow: 1;
 }
 
-.project div:hover .zoom img {
-    transform: scale(1.25);
-    transition: all .5s ease;
+.project-body h2 {
+	margin: 0;
+	font-size: 1.2rem;
 }
 
-.project div:not(:hover) .zoom img {
-    transform: scale(1);
-    transition: all .5s ease;
+.project-body p {
+	margin: 0;
+	font-size: 0.95rem;
+	opacity: 0.8;
+	flex-grow: 1;
 }
 
-.project div:hover h3 {
-    color: var(--theme-text);
-    transition: all .5s ease;
+.tech-list {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin: 4px 0 0;
+	padding: 0;
 }
 
-.project div:hover .item-text {
-    background: var(--theme-primaryButton);
-    color: var(--theme-text);
-    transition: all .5s ease;
-}
-
-.project div a {
-    color: var(--theme-text);
-    padding: 5px 10px;
-    text-decoration: none;
-    border: 2px dashed var(--theme-primaryButton);
-    border-bottom: 2px solid var(--theme-primaryButton);
-    transition: all .5s ease;
-    display: inline-block;
-    margin-bottom: 5px;
-}
-
-.project div:hover a {
-    color: var(--theme-text);
-    border: 2px solid var(--theme-text);
-    border-bottom: 5px solid var(--theme-text);
-    border-radius: 15px;
-}
-
-.item-text p {
-    margin: 20px 0;
+.tech-list i {
+	font-size: 1.2rem;
+	color: var(--theme-accent);
 }

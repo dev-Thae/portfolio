@@ -7,7 +7,7 @@ declare global {
 		// interface PageData {}
 		// interface Platform {}
 	}
-	
+
 	interface ViewTransition {
 		updateCallbackDone: Promise<void>;
 		ready: Promise<void>;
@@ -20,4 +20,5 @@ declare global {
 	}
 }
 
-export {};
+export { };
+

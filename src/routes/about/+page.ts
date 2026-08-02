@@ -1,6 +1,6 @@
 import type { PageLoad } from './$types';
-import skills from "$lib/database/skills.json";
+import skills from '$lib/database/skills.json';
 
 export const load = (async () => {
-    return { skills };
+	return { skills };
 }) satisfies PageLoad;

@@ -1,6 +1,6 @@
 import type { PageLoad } from './$types';
-import bookmarks from '$lib/database/bookmarks.json';
+import { getAllPosts } from '$lib/blog';
 
 export const load = (async () => {
-	return { bookmarks };
+	return { posts: getAllPosts() };
 }) satisfies PageLoad;

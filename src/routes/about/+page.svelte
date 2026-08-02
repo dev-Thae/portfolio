@@ -1,20 +1,15 @@
 <script lang="ts">
-    import type { PageData } from "./$types";
-    import CardsCatalog from "$lib/components/CardsCatalog/CardsCatalog.svelte";
+	import CardsCatalog from '$lib/components/CardsCatalog/CardsCatalog.svelte';
+	import type { PageData } from './$types';
 
-    export let data: PageData;
+	export let data: PageData;
 </script>
 
-<svelte:head>
-    <title>About</title>
-</svelte:head>
-
 <main class="about">
-    <h1>About</h1>
-
-    <CardsCatalog skills={data.skills} />
+	<h1>About</h1>
+	<CardsCatalog skills={data.skills} />
 </main>
 
 <style>
-    @import "./+page.css";
+	@import './+page.css';
 </style>

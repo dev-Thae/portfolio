@@ -11,8 +11,8 @@
 			<h2>-{bookmark.name}-</h2>
 			<hr />
 			<article>{bookmark.description}</article>
-            <hr>
-			<a href={bookmark.link} target="_blank">({bookmark.link})</a>
+			<hr />
+			<a href={bookmark.link} target="_blank" rel="noopener noreferrer">({bookmark.link})</a>
 		</div>
 	{/each}
 </main>

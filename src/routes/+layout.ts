@@ -6,5 +6,5 @@ export const prerender = true;
 export const ssr = true;
 
 export const load = (async () => {
-    return {};
+	return {};
 }) satisfies LayoutLoad;

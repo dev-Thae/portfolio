@@ -1,5 +1,5 @@
-<script>
-	import { onMount, afterUpdate } from 'svelte';
+<script lang="ts">
+	import { onMount } from 'svelte';
 	import { technologyIcons } from '$lib';
 	export let skills = [
 		{ id: 0, name: 'HTML' },
@@ -7,9 +7,10 @@
 		{ id: 2, name: 'JavaScript' }
 	];
 
-	let handleMouseMove = (e) => {
+	const handleMouseMove = (e: MouseEvent) => {
 		const cards = document.getElementsByClassName('card');
-		Array.from(cards).forEach((card) => {
+		Array.from(cards).forEach((element) => {
+			const card = element as HTMLElement;
 			const rect = card.getBoundingClientRect();
 			const x = e.clientX - rect.left;
 			const y = e.clientY - rect.top;
@@ -19,12 +20,12 @@
 		});
 	};
 
-	afterUpdate(() => {
+	onMount(() => {
 		const cards = document.getElementById('cards');
-		cards.addEventListener('mousemove', handleMouseMove);
+		cards?.addEventListener('mousemove', handleMouseMove);
 
 		return () => {
-			cards.removeEventListener('mousemove', handleMouseMove);
+			cards?.removeEventListener('mousemove', handleMouseMove);
 		};
 	});
 </script>
@@ -33,7 +34,7 @@
 	{#each skills as skill (skill.id)}
 		<div class="card">
 			<div class="card-content">
-				<i class="{technologyIcons[skill.name]}" />
+				<i class={technologyIcons[skill.name]}></i>
 				<br />
 				<h3>{skill.name}</h3>
 			</div>

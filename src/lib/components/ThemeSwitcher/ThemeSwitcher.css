@@ -1,8 +1,23 @@
 .theme-switcher {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
+	flex-shrink: 0;
 }
 
 .theme-switcher button:first-child {
-    margin-right: 10px;
+	margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	/* the "Previous"/"Next" text buttons otherwise keep the global 70px
+	   min-width, crowding out the hamburger on narrow screens */
+	.theme-switcher button {
+		min-width: 0;
+		padding: 4px 8px;
+		font-size: 0.8rem;
+	}
+
+	.theme-switcher button:first-child {
+		margin-right: 6px;
+	}
 }

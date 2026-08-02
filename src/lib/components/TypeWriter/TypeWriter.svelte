@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { onDestroy } from 'svelte';
 
 	export let className = 'typewriter';
@@ -10,7 +10,7 @@
 	let currentText = '';
 	let isDeleting = false;
 
-	let timer;
+	let timer: ReturnType<typeof setTimeout>;
 
 	const updateText = () => {
 		const currentWord = wordList[currentWordIndex];

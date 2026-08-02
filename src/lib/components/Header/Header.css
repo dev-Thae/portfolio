@@ -1,43 +1,49 @@
 /*Header CSS*/
 header {
-    background-color: var(--theme-background);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 1vw 0px 1vw;
-    view-transition-name: header;
+	background-color: var(--theme-background);
+	box-shadow: 2vw;
+
+	position: fixed;
+	width: 96vw;
+	height: 45px;
+	z-index: 1000;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 1vw 0px 1vw;
+
+	view-transition-name: header;
 }
 
-header h1,
-header img,
-header svg {
-    padding-left: 1vw;
-    margin-right: 1vw;
-    max-height: 50px;
-    max-width: 100%;
-    margin: 0px;
-    padding: 0px;
+header h1 {
+	padding-left: 1vw;
+	margin-right: 1vw;
+	max-height: 50px;
+	max-width: 100%;
+	margin: 0px;
+	padding: 0px;
+	flex-shrink: 1;
+	min-width: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 @media screen and (max-width: 768px) {
-    header .theme-switcher {
-        display: none;
-    }
+	header {
+		/* 1vw shrinks to a few px on phone widths, letting the last
+		   header control (ThemeSwitcher's "Next" button) touch the
+		   screen edge — guarantee a minimum real gap instead */
+		padding: 0px max(1vw, 12px);
+	}
 
-    /*
-    header button {
-        width: 40px;
-        height: 20px;
-        display: flex !important;
-        justify-content: center !important;
-    }
-    */
+	header h1 {
+		font-size: 1.3rem;
+	}
 
-    header button span {
-        display: none !important;
-    }
-
-    header button svg {
-        display: block !important;
-    }
+	/* :global — the buttons belong to the child ThemeSwitcher component */
+	header :global(button) {
+		height: 25px;
+	}
 }

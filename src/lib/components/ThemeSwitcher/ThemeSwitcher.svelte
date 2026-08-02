@@ -2,13 +2,21 @@
 	import { onMount, onDestroy } from 'svelte';
 	import themes from './ThemeSwitcher';
 
-	let currentThemeIndex = 0;
+	// 1 = "Dark", matching the :root defaults in global.css
+	let currentThemeIndex = 1;
 
 	onMount(() => {
-		const savedThemeIndex = localStorage.getItem('currentThemeIndex');
-		if (savedThemeIndex !== null) {
-			currentThemeIndex = parseInt(savedThemeIndex, 10);
-			applyTheme();
+		try {
+			const savedThemeIndex = localStorage.getItem('currentThemeIndex');
+			if (savedThemeIndex !== null) {
+				const index = parseInt(savedThemeIndex, 10);
+				if (index >= 0 && index < themes.length) {
+					currentThemeIndex = index;
+					applyTheme();
+				}
+			}
+		} catch {
+			// localStorage can throw in sandboxed/privacy contexts; keep the CSS defaults
 		}
 	});
 
@@ -26,7 +34,11 @@
 	function switchTheme(increment: number) {
 		currentThemeIndex = (currentThemeIndex + increment + themes.length) % themes.length;
 		applyTheme();
-		localStorage.setItem('currentThemeIndex', currentThemeIndex.toString());
+		try {
+			localStorage.setItem('currentThemeIndex', currentThemeIndex.toString());
+		} catch {
+			// ignore — theme still applies for this visit
+		}
 	}
 
 	const nextTheme = () => switchTheme(1);

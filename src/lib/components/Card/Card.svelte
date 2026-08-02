@@ -1,13 +1,14 @@
-<script>
-	import { onMount, onDestroy } from 'svelte';
+<script lang="ts">
+	import { onMount } from 'svelte';
 
 	export let width = '400px';
-	export let url = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/1200px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg";
+	export let url =
+		'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/1200px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg';
 
-	let card;
-	let bounds;
+	let card: HTMLDivElement;
+	let bounds: DOMRect;
 
-	const rotateToMouse = (e) => {
+	const rotateToMouse = (e: MouseEvent) => {
 		const mouseX = e.clientX;
 		const mouseY = e.clientY;
 		const leftX = mouseX - bounds.x;
@@ -28,8 +29,9 @@
         )
       `;
 
-		const glow = card.querySelector('.glow');
-		glow.style.backgroundImage = `
+		const glow = card.querySelector<HTMLElement>('.glow');
+		if (glow) {
+			glow.style.backgroundImage = `
         radial-gradient(
           circle at
           ${center.x * 2 + bounds.width / 2}px
@@ -38,6 +40,7 @@
           #0000000f
         )
       `;
+		}
 	};
 
 	const handleMouseEnter = () => {
@@ -62,7 +65,7 @@
 </script>
 
 <div bind:this={card} class="card" style="width: {width}; background-image: url({url});">
-	<div class="glow" />
+	<div class="glow"></div>
 </div>
 
 <style>

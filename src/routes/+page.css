@@ -1,47 +1,49 @@
 /*Home CSS*/
 #home {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
 }
 
 .content {
-    z-index: 1;
-    text-align: left;
-    width: 30rem;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+	text-align: left;
+	width: 30rem;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
 }
 
 .content h2 {
-    font-size: 4rem;
-    font-weight: 500;
+	font-size: 4rem;
+	font-weight: 500;
 }
 
 .content h2 span {
-    color: var(--theme-accent);
+	color: var(--theme-accent);
 }
 
-.content > span {
-    font-size: 2rem;
-    font-weight: 500;
+.content > span,
+.content > :global(.typewriter) {
+	font-size: 2rem;
+	font-weight: 500;
 }
 
 /*Components' CSS*/
-.content > .typewriter {
-    color: var(--theme-accent);
+/* :global — the span is rendered by the child TypeWriter component */
+.content > :global(.typewriter) {
+	color: var(--theme-accent);
 }
 
 /*RESPONSIVE*/
-@media screen and (max-width: 768px){
-    .content{
-        padding: 0px;
-    }
-    .content h2{
-        font-size: 3rem;
-    }
+@media screen and (max-width: 768px) {
+	.content {
+		padding: 0px;
+	}
+
+	.content h2 {
+		font-size: 3rem;
+	}
 }

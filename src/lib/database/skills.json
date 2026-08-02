@@ -1,102 +1,337 @@
 [
-   {
-      "id": 0,
-      "name": "HTML"
-   },
-   {
-      "id": 1,
-      "name": "CSS"
-   },
-   {
-      "id": 2,
-      "name": "JavaScript"
-   },
-   {
-      "id": 3,
-      "name": "React"
-   },
-   {
-      "id": 4,
-      "name": "Angular"
-   },
-   {
-      "id": 5,
-      "name": "Vue.js"
-   },
-   {
-      "id": 6,
-      "name": "Svelte"
-   },
-   {
-      "id": 7,
-      "name": "Node.js"
-   },
-   {
-      "id": 8,
-      "name": "Node"
-   },
-   {
-      "id": 9,
-      "name": "FontAwesome"
-   },
-   {
-      "id": 10,
-      "name": "FortAwesome"
-   },
-   {
-      "id": 11,
-      "name": "StackOverflow"
-   },
-   {
-      "id": 12,
-      "name": "PHP"
-   },
-   {
-      "id": 13,
-      "name": "Python"
-   },
-   {
-      "id": 14,
-      "name": "Swift"
-   },
-   {
-      "id": 15,
-      "name": "Java"
-   },
-   {
-      "id": 16,
-      "name": "Markdown"
-   },
-   {
-      "id": 17,
-      "name": "CodePen"
-   },
-   {
-      "id": 18,
-      "name": "Git"
-   },
-   {
-      "id": 20,
-      "name": "GitHub"
-   },
-   {
-      "id": 21,
-      "name": "Docker"
-   },
-   {
-      "id": 22,
-      "name": "Windows"
-   },
-   {
-      "id": 23,
-      "name": "Linux"
-   },
-   {
-      "id": 24,
-      "name": "Ubuntu"
-   },
-   {
-      "id": 25,
-      "name": "RaspberryPi"
-   }
+	{
+		"id": 0,
+		"name": "HTML",
+		"category": "langs"
+	},
+	{
+		"id": 1,
+		"name": "CSS",
+		"category": "langs"
+	},
+	{
+		"id": 2,
+		"name": "JavaScript",
+		"category": "langs"
+	},
+	{
+		"id": 3,
+		"name": "PHP",
+		"category": "langs"
+	},
+	{
+		"id": 4,
+		"name": "Python",
+		"category": "langs"
+	},
+	{
+		"id": 5,
+		"name": "Java",
+		"category": "langs"
+	},
+	{
+		"id": 6,
+		"name": "Markdown",
+		"category": "langs"
+	},
+	{
+		"id": 7,
+		"name": "TypeScript",
+		"category": "langs"
+	},
+	{
+		"id": 8,
+		"name": "C",
+		"category": "langs"
+	},
+	{
+		"id": 9,
+		"name": "C++",
+		"category": "langs"
+	},
+	{
+		"id": 10,
+		"name": "C#",
+		"category": "langs"
+	},
+	{
+		"id": 11,
+		"name": "React",
+		"category": "libraries"
+	},
+	{
+		"id": 12,
+		"name": "Svelte",
+		"category": "libraries"
+	},
+	{
+		"id": 13,
+		"name": "PyTorch",
+		"category": "libraries"
+	},
+	{
+		"id": 14,
+		"name": "TensorFlow",
+		"category": "libraries"
+	},
+	{
+		"id": 15,
+		"name": "Scikit-learn",
+		"category": "libraries"
+	},
+	{
+		"id": 16,
+		"name": "Node.js",
+		"category": "technologies"
+	},
+	{
+		"id": 17,
+		"name": "Node",
+		"category": "technologies"
+	},
+	{
+		"id": 18,
+		"name": "FontAwesome",
+		"category": "technologies"
+	},
+	{
+		"id": 19,
+		"name": "FortAwesome",
+		"category": "technologies"
+	},
+	{
+		"id": 20,
+		"name": "Git",
+		"category": "technologies"
+	},
+	{
+		"id": 21,
+		"name": "GitHub",
+		"category": "technologies"
+	},
+	{
+		"id": 22,
+		"name": "Docker",
+		"category": "technologies"
+	},
+	{
+		"id": 23,
+		"name": "UIPath",
+		"category": "technologies"
+	},
+	{
+		"id": 24,
+		"name": "AI",
+		"category": "technologies"
+	},
+	{
+		"id": 25,
+		"name": "Machine Learning",
+		"category": "technologies"
+	},
+	{
+		"id": 26,
+		"name": "Deep Learning",
+		"category": "technologies"
+	},
+	{
+		"id": 27,
+		"name": "Federated Learning",
+		"category": "technologies"
+	},
+	{
+		"id": 28,
+		"name": "Transfer Learning",
+		"category": "technologies"
+	},
+	{
+		"id": 29,
+		"name": "Representation Learning",
+		"category": "technologies"
+	},
+	{
+		"id": 30,
+		"name": "Neural Networks",
+		"category": "technologies"
+	},
+	{
+		"id": 31,
+		"name": "RNN",
+		"category": "technologies"
+	},
+	{
+		"id": 32,
+		"name": "CNN",
+		"category": "technologies"
+	},
+	{
+		"id": 33,
+		"name": "LSTM",
+		"category": "technologies"
+	},
+	{
+		"id": 34,
+		"name": "GAN",
+		"category": "technologies"
+	},
+	{
+		"id": 35,
+		"name": "Transformer",
+		"category": "technologies"
+	},
+	{
+		"id": 36,
+		"name": "AutoEncoder",
+		"category": "technologies"
+	},
+	{
+		"id": 37,
+		"name": "LLM",
+		"category": "technologies"
+	},
+	{
+		"id": 38,
+		"name": "XAI",
+		"category": "technologies"
+	},
+	{
+		"id": 39,
+		"name": "MLOps",
+		"category": "technologies"
+	},
+	{
+		"id": 40,
+		"name": "Latent Feature",
+		"category": "technologies"
+	},
+	{
+		"id": 41,
+		"name": "Latent Space",
+		"category": "technologies"
+	},
+	{
+		"id": 42,
+		"name": "t-SNE",
+		"category": "technologies"
+	},
+	{
+		"id": 43,
+		"name": "UMAP",
+		"category": "technologies"
+	},
+	{
+		"id": 44,
+		"name": "PCA",
+		"category": "technologies"
+	},
+	{
+		"id": 45,
+		"name": "Weaviate",
+		"category": "technologies"
+	},
+	{
+		"id": 46,
+		"name": "VectorDB",
+		"category": "technologies"
+	},
+	{
+		"id": 47,
+		"name": "ANN",
+		"category": "technologies"
+	},
+	{
+		"id": 48,
+		"name": "Similarity Search",
+		"category": "technologies"
+	},
+	{
+		"id": 49,
+		"name": "Embeddings",
+		"category": "technologies"
+	},
+	{
+		"id": 50,
+		"name": "Benchmarking",
+		"category": "technologies"
+	},
+	{
+		"id": 51,
+		"name": "Experiment Tracking",
+		"category": "technologies"
+	},
+	{
+		"id": 52,
+		"name": "Reproducibility",
+		"category": "technologies"
+	},
+	{
+		"id": 53,
+		"name": "Trustworthy AI",
+		"category": "technologies"
+	},
+	{
+		"id": 54,
+		"name": "Responsible AI",
+		"category": "technologies"
+	},
+	{
+		"id": 55,
+		"name": "Agentic AI",
+		"category": "technologies"
+	},
+	{
+		"id": 56,
+		"name": "Windows",
+		"category": "os"
+	},
+	{
+		"id": 57,
+		"name": "Linux",
+		"category": "os"
+	},
+	{
+		"id": 58,
+		"name": "Ubuntu",
+		"category": "os"
+	},
+	{
+		"id": 59,
+		"name": "Debian",
+		"category": "os"
+	},
+	{
+		"id": 60,
+		"name": "Fedora",
+		"category": "os"
+	},
+	{
+		"id": 61,
+		"name": "Arch",
+		"category": "os"
+	},
+	{
+		"id": 62,
+		"name": "Cachy",
+		"category": "os"
+	},
+	{
+		"id": 63,
+		"name": "Pardus",
+		"category": "os"
+	},
+	{
+		"id": 64,
+		"name": "StackOverflow",
+		"category": "others"
+	},
+	{
+		"id": 65,
+		"name": "CodePen",
+		"category": "others"
+	},
+	{
+		"id": 66,
+		"name": "UI/UX",
+		"category": "others"
+	}
 ]

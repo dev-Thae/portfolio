@@ -1,10 +1,12 @@
 [
-   "Testing",
-   "Quality Assurance",
-   "Data Science",
-   "Machine Learning",
-   "Design",
-   "UI/UX",
-   "Python",
-   "Game Development"
+	"Design",
+	"Testing",
+	"Quality Assurance",
+	"UI/UX",
+	"Data Science",
+	"Machine Learning",
+	"Deep Learning",
+	"Python",
+	"PyTorch",
+	"Neural Networks"
 ]

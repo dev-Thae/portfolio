@@ -1,37 +1,128 @@
 [
-   {
-      "id": 0,
-      "shortname": "shortname",
-      "name": "Name",
-      "description": "Description...",
-      "link": "https://#/link"
-   },
-   {
-      "id": 1,
-      "shortname": "src1",
-      "name": "Source One",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus facilisis nisl vel consequat. Pellentesque augue nulla, dignissim vel lacinia et, auctor id arcu. Proin ut velit orci. Maecenas efficitur, nibh in feugiat tristique, eros sapien commodo odio, et sagittis sapien nisi vel orci. Duis congue lorem ut libero dapibus, vel maximus mauris congue. Proin consequat, ligula ut volutpat consequat, turpis tellus malesuada nibh, quis bibendum justo arcu sit amet eros. Praesent pulvinar congue sodales.",
-      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-   },
-   {
-      "id": 2,
-      "shortname": "huzursuzbeyin",
-      "name": "Huzursuz Beyin",
-      "description": "\"Daha huzurlu ve akıllı bir yaşam sürebilmek için psikoloji ve felsefe ile ilgili okumalar yapıyor, notlar alıyor ve bunları başta Instagram üzere çeşitli platformlardan okuyucularımla paylaşıyorum.\"\n-Huzursuz Beyin",
-      "link": "https://www.huzursuzbeyin.com/"
-   },
-   {
-      "id": 3,
-      "shortname": "PhET Interactive Simulations",
-      "name": "PhET",
-      "description": "Founded in 2002 by Nobel Laureate Carl Wieman, the PhET Interactive Simulations project at the University of Colorado Boulder creates free interactive math and science simulations. PhET sims are based on extensive education research and engage students through an intuitive, game-like environment where students learn through exploration and discovery. Also, available at many languages.",
-      "link": "https://phet.colorado.edu/"
-   },
-   {
-      "id": 4,
-      "shortname": "refactoringguru",
-      "name": "Refactoring.Guru",
-      "description": "Refactoring.Guru makes it easy for you to discover everything you need to know about refactoring, design patterns, SOLID principles, and other smart programming topics.",
-      "link": "https://refactoring.guru/"
-   }
+	{
+		"id": 1,
+		"shortname": "src1",
+		"name": "Source One",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus facilisis nisl vel consequat. Pellentesque augue nulla, dignissim vel lacinia et, auctor id arcu. Proin ut velit orci. Maecenas efficitur, nibh in feugiat tristique, eros sapien commodo odio, et sagittis sapien nisi vel orci. Duis congue lorem ut libero dapibus, vel maximus mauris congue. Proin consequat, ligula ut volutpat consequat, turpis tellus malesuada nibh, quis bibendum justo arcu sit amet eros. Praesent pulvinar congue sodales.",
+		"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	},
+	{
+		"id": 2,
+		"shortname": "huzursuzbeyin",
+		"name": "Huzursuz Beyin",
+		"description": "\"Daha huzurlu ve akıllı bir yaşam sürebilmek için psikoloji ve felsefe ile ilgili okumalar yapıyor, notlar alıyor ve bunları başta Instagram üzere çeşitli platformlardan okuyucularımla paylaşıyorum.\"\n-Huzursuz Beyin",
+		"link": "https://www.huzursuzbeyin.com/"
+	},
+	{
+		"id": 3,
+		"shortname": "PhET Interactive Simulations",
+		"name": "PhET",
+		"description": "Founded in 2002 by Nobel Laureate Carl Wieman, the PhET Interactive Simulations project at the University of Colorado Boulder creates free interactive math and science simulations. PhET sims are based on extensive education research and engage students through an intuitive, game-like environment where students learn through exploration and discovery. Also, available at many languages.",
+		"link": "https://phet.colorado.edu/"
+	},
+	{
+		"id": 4,
+		"shortname": "refactoringguru",
+		"name": "Refactoring.Guru",
+		"description": "Refactoring.Guru makes it easy for you to discover everything you need to know about refactoring, design patterns, SOLID principles, and other smart programming topics.",
+		"link": "https://refactoring.guru/"
+	},
+	{
+		"id": 5,
+		"shortname": "distill",
+		"name": "Distill",
+		"description": "Distill was a journal for machine learning research that pioneered clear, interactive explanations of ML concepts, using live diagrams and visualizations instead of static prose to build genuine intuition.",
+		"link": "https://distill.pub/"
+	},
+	{
+		"id": 6,
+		"shortname": "distrowatch",
+		"name": "DistroWatch",
+		"description": "A comprehensive information resource dedicated to Linux and BSD distributions, tracking hundreds of open-source operating systems with release announcements, reviews, package news, and rankings for beginners and experienced users alike.",
+		"link": "https://distrowatch.com/"
+	},
+	{
+		"id": 7,
+		"shortname": "lewandowski",
+		"name": "Mariusz Lewandowski",
+		"description": "The official gallery of Mariusz Lewandowski (1960-2022), a Polish surrealist painter known for atmospheric, metaphysical landscapes, showcasing his original paintings and fine art prints.",
+		"link": "https://lewandowski.art/"
+	},
+	{
+		"id": 8,
+		"shortname": "vincentdifate",
+		"name": "Vincent Di Fate",
+		"description": "Portfolio of Vincent Di Fate, a renowned science fiction illustrator, featuring imaginative artwork depicting space exploration, futuristic technology, and speculative science fiction concepts.",
+		"link": "https://www.vincentdifate.com/"
+	},
+	{
+		"id": 9,
+		"shortname": "ryanthancock",
+		"name": "Ryan T. Hancock",
+		"description": "Portfolio of Ryan T. Hancock, a sci-fi and fantasy freelance artist, showcasing album covers, book covers, fan art, and original paintings available as prints.",
+		"link": "https://www.ryanthancock.com/"
+	},
+	{
+		"id": 10,
+		"shortname": "smarthistory",
+		"name": "Smarthistory",
+		"description": "A free, nonprofit multimedia resource for the history of art, offering essays, videos, and conversations that make art history accessible to everyone.",
+		"link": "https://smarthistory.org/"
+	},
+	{
+		"id": 11,
+		"shortname": "sabaton",
+		"name": "Sabaton",
+		"description": "Official website of Sabaton, a Swedish heavy metal band known for historical and war-themed songs, featuring their music, tour dates, and merchandise.",
+		"link": "https://www.sabaton.net/"
+	},
+	{
+		"id": 12,
+		"shortname": "redblobgames",
+		"name": "Red Blob Games",
+		"description": "Amit Patel's site of interactive explanations for game development topics like pathfinding, hex grids, and procedural generation, using live, tweakable diagrams instead of static text.",
+		"link": "https://www.redblobgames.com/"
+	},
+	{
+		"id": 13,
+		"shortname": "ciechanowski",
+		"name": "Ciechanowski",
+		"description": "Bartosz Ciechanowski's blog of deeply interactive articles explaining how everyday physical and mechanical things work (gears, lenses, GPS, the Sun, and more) through custom animations and simulations.",
+		"link": "https://ciechanow.ski/"
+	},
+	{
+		"id": 14,
+		"shortname": "flowingdata",
+		"name": "FlowingData",
+		"description": "Nathan Yau's blog covering data visualization, statistics, and design, with tutorials and commentary on how to turn data into clear, meaningful graphics.",
+		"link": "https://flowingdata.com/"
+	},
+	{
+		"id": 16,
+		"shortname": "codingtrain",
+		"name": "The Coding Train",
+		"description": "Daniel Shiffman's home for creative coding tutorials, covering generative art, simulations, and algorithms in JavaScript and p5.js, with a friendly and enthusiastic teaching style.",
+		"link": "https://thecodingtrain.com/"
+	},
+	{
+		"id": 17,
+		"shortname": "shadertoy",
+		"name": "Shadertoy",
+		"description": "A community platform for creating, sharing, and exploring GPU shaders written entirely in fragment shader code, ranging from abstract art to photorealistic scenes rendered in real time.",
+		"link": "https://www.shadertoy.com/"
+	},
+	{
+		"id": 18,
+		"shortname": "zoomquilt",
+		"name": "Zoomquilt",
+		"description": "A collaborative art project made of an endlessly zooming, seamlessly looping painting, stitched together from illustrations by many different artists.",
+		"link": "https://zoomquilt.org/"
+	},
+	{
+		"id": 19,
+		"shortname": "windy",
+		"name": "Windy",
+		"description": "An interactive weather visualization map showing wind, rain, temperature, and other atmospheric data overlaid on the globe, with animated flow and forecast controls.",
+		"link": "https://www.windy.com/"
+	}
 ]
